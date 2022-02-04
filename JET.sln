@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JET", "JET.csproj", "{1AE6A449-4A35-4701-804F-EA291DFA85AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JETTests", "..\JETTests\JETTests.csproj", "{C7E97B65-DC2C-4F4E-960D-497999F7BC07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AE6A449-4A35-4701-804F-EA291DFA85AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE6A449-4A35-4701-804F-EA291DFA85AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE6A449-4A35-4701-804F-EA291DFA85AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE6A449-4A35-4701-804F-EA291DFA85AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E97B65-DC2C-4F4E-960D-497999F7BC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E97B65-DC2C-4F4E-960D-497999F7BC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E97B65-DC2C-4F4E-960D-497999F7BC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E97B65-DC2C-4F4E-960D-497999F7BC07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33C85DD5-607D-4055-8BFB-75E82BD695F8}
+	EndGlobalSection
+EndGlobal
