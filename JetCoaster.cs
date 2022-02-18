@@ -16,27 +16,30 @@ namespace JET
             int u = 0;  //配列用の定数
             int l = 0;  //二重にグループを数えないための変数
             int a = 0;  //リターン用の変数
-
-            for(int i =1; i <= r; i++)
+            if (g.Length == 0)
             {
-                k = n;
-                l = 0;
-                while (0 <= k - g[u]) 
-                {
-                    if (l == g.Length)//二重に数えてないか判別
+                return a;
+            }
+            else {
+                    for(int i =1; i <= r; i++)
                     {
-                        break;
+                        k = n;
+                        l = 0;
+                        while (0 <= k - g[u])
+                        {
+                            if (l == g.Length)//二重に数えてないか判別
+                            {
+                                break;
+                            }
+                            k = k - g[u];
+                            a = a + g[u];
+                            u++;
+                            l++;
+                            if (u == g.Length)
+                            {
+                                u = 0;
+                            }
                     }
-                    k = k - g[u];
-                    a = a + g[u];
-                    u++;
-                    l++;
-                    
-                    if (u == g.Length)
-                    {
-                        u = 0;
-                    }
-               
                 }
 
             }return a;
